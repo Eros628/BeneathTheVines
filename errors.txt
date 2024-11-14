@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 454: style property define is not known.
+    define gui.text_size = 
+          ^
+
+Ren'Py Version: Ren'Py 8.3.0.24082114
+Wed Nov 13 23:07:38 2024
