@@ -1,4 +1,12 @@
-
+default beenfore = False
+default isSkip = False
+default turns = 0
+default events = 0
+default location_user = "hallway"
+default location_stranger = "room 2"
+default isUnlocked = False 
+default inventory = Inventory([], 0)
+define key1 = Items("key", "This key is used to room 2", "key_idle.png")
 
 # clickable doors
 screen test():
@@ -134,7 +142,7 @@ screen iconInventory():
         auto "inventoryIcon_%s.png" action Show ("inventory", transition=wipeleft)
         
 
-
+# Fireflies animation overlay, used in the main menu
 image fireflies:
     "fireflies/frame1.png" with Dissolve(1.5)
     pause 1.5
@@ -157,4 +165,5 @@ image fireflies:
     "fireflies/transparent.png" with Dissolve(1.5)
     pause 1.5
     repeat
+
 
