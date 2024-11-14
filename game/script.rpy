@@ -1,5 +1,4 @@
-﻿
-default beenfore = False
+﻿default beenfore = False
 default isSkip = False
 default turns = 0
 default events = 0
