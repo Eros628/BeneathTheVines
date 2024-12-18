@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 454: style property define is not known.
-    define gui.text_size = 
-          ^
+File "game/script.rpy", line 175: expected statement.
+    00000000000
+               ^
 
-Ren'Py Version: Ren'Py 8.3.0.24082114
-Wed Nov 13 23:07:38 2024
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Sat Dec 14 13:14:44 2024
